@@ -1,0 +1,7 @@
+<odoo>
+    <menuitem id="art_gallery_menu_root" name="Art Gallery" web_icon="art_gallery,static/description/icon.png">
+        <menuitem id="art_gallery_first_level_menu" name="Artworks">
+            <menuitem id="art_gallery_menu_action" action="art_gallery_action" name="Browse Artworks"/>
+        </menuitem>
+    </menuitem>
+</odoo>
