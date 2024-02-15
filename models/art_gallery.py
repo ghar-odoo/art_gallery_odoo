@@ -20,5 +20,6 @@ class ArtGallery(models.Model):
         default='available'
     )
     active = fields.Boolean(string='Active', default=True)
+    category = fields.Many2one('art.gallery.category', string='Category')
    
 

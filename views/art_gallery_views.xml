@@ -13,6 +13,7 @@
             <tree>
                 <field name="name"/>
                 <field name="artist"/>
+                <field name="category"/>
                 <field name="price"/>
                 <field name="creation_date"/>
                 <field name="availability"/>
@@ -25,7 +26,7 @@
     <field name="name">art.gallery.form.view</field>
     <field name="model">art.gallery</field>
     <field name="arch" type="xml">
-        <form>
+        <form>Browse Ar
             <sheet>
                 <h1>
                     <field name="name"/>
@@ -34,6 +35,7 @@
                     <group>
                         <field name="artist"/>
                         <field name="price"/>
+                        <field name="category"/>
                         <field name="creation_date"/>
                     </group>
                     <group>
@@ -59,6 +61,7 @@
         <search>
             <field name="name"/>
             <field name="artist"/>
+            <field name="category"/>
             <field name="price"/>
             <field name="creation_date"/>
             <field name="availability"/>
@@ -66,6 +69,7 @@
             <filter string="Available" name="available_filter" domain="[('availability', '=', 'available')]"/>
 
             <group expand="1" string="By">
+                <filter string="Category" name="category_filter" context="{'group_by': 'category'}" />
                 <filter string="Artist" name="artist_filter" context="{'group_by': 'artist'}" />
             </group>
         </search>

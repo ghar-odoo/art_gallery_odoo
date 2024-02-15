@@ -1,0 +1,7 @@
+<odoo>
+    <record id="art_gallery_category_action" model="ir.actions.act_window">
+        <field name="name">Art Categories</field>
+        <field name="res_model">art.gallery.category</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+</odoo>

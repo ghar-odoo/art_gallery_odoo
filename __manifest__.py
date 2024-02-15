@@ -11,6 +11,7 @@
     'data':[
         'security/ir.model.access.csv',
         'views/art_gallery_views.xml',
+        'views/art_gallery_category_views.xml',
         'views/art_menus.xml'
         
     ],

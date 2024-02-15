@@ -3,5 +3,8 @@
         <menuitem id="art_gallery_first_level_menu" name="Artworks">
             <menuitem id="art_gallery_menu_action" action="art_gallery_action" name="Browse Artworks"/>
         </menuitem>
+        <menuitem id="art_gallery_second_level_menu" name="Settings">
+            <menuitem id="art_gallery_category_menu_action" action="art_gallery_category_action" name="Artwork Categories"/>
+        </menuitem>
     </menuitem>
 </odoo>
